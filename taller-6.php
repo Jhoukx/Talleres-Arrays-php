@@ -13,8 +13,8 @@ $planetas = array("Sol",
 "Neptuno");
 $planet = $_POST["planet"];
 if (in_array($planet,$planetas)){
-    echo "<h3>El planeta existe</h3>";
+    echo "<h3>El planeta $planet existe</h3>";
 }else{
-    echo "<h3>El planeta NO existe</h3>";
+    echo "<h3>El planeta $planet NO existe</h3>";
 }
 ?>
