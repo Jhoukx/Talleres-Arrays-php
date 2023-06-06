@@ -1,4 +1,7 @@
 <?php
+echo <<<HTML
+<a href="index.html" target="_self">Volver</a><br/>
+HTML;
 $planetas = array("Sol",
 "Mercurio",
 "Venus",
