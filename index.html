@@ -15,16 +15,16 @@
         <form action="taller-1.php" method="POST">
             <label class="form-label mt-5" for="">Número del planeta según su orden(1-9):</label>
             <input class="form-control" type="number" name="nPlaneta" id="">
-            <input class="btn btn-dark mt-2" type="submit" value="Enviar">
         </form>
+        <input class="btn btn-dark mt-2" type="submit" value="Enviar">
         <!--Taller 2-->
         <h3>Taller 2</h3>
         <form action="Taller-2.php" method="POST">
             <div class="form-floating">
                 <input type="number" class="form-control" name="nPlanetas" placeholder="planetas">
                 <label for="floatingPassword">Cuántos planetas tendrá el sistema solar</label>
-                <button class="btn btn-dark mt-2" type="submit">Enviar</button>
             </div>
+            <button class="btn btn-dark mt-2" type="submit">Enviar</button>
         </form>
         <!--Taller 3-->
         <h3 >Taller 3</h3>
@@ -80,6 +80,23 @@
             <input class="btn btn-dark mt-2" type="submit" value="Encontrar planetas únicos">
         </form>
         <!--Taller 12-->
+        <h3>Taller-12</h3>
+        <form action="taller-12.php" method="POST">
+            <div class="form-floating">
+                <select class="form-select" id="floatingSelect" name="planeta" aria-label="Floating label select example">
+                    <option value="" selected>Seleccione un planeta</option>
+                    <option value="Tierra">Tierra</option>
+                    <option value="Marte">Marte</option>
+                    <option value="Jupiter">Jupiter</option>
+                </select>
+                <label for="floatingSelect">Planeta al que desea agregar el satelite</label>
+            </div>
+            <div class="form-floating mb-3 mt-3">
+                <input type="text" class="form-control" name="satelite" id="floatingInput" placeholder="satelite">
+                <label for="floatingInput">Nombre del satelite</label>
+            </div>
+            <input class="btn btn-dark" type="submit" value="Mostrar">
+        </form>
         <!--Taller 13-->
         <h3>Taller-13</h3>
         <form action="taller-13.php" method="POST">
